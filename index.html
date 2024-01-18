@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temporizador</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <h1>Temporizador</h1>
+    <div class="timer-container">
+        <input type="number" id="tiempoElegido">
+
+        <button onclick="comenzarTiempo()">Alarma</button>
+
+        <h2 id="textoAlarma">Apagado</h2>
+
+        <audio id="audioAlarma">
+            <source src="assets/audio/clock-alarm-8761.mp3" type="audio/mp3">
+            Sonido no compatible con tu navegador
+        </audio>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
